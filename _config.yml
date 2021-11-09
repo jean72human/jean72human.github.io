@@ -17,12 +17,12 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-facebook: "#"
-twitter: "#"
-linkedin: "#"
-github: "#"
-researchgate: "#"
-orcid: "#"
+#facebook: "#"
+twitter: "https://twitter.com/jean72human"
+linkedin: "https://www.linkedin.com/in/gbetondji-dovonon/"
+github: "https://github.com/jean72human"
+#researchgate: "#"
+#orcid: "#"
 
 highlighter: rouge
 markdown: kramdown
