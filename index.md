@@ -7,8 +7,10 @@ profile:
 published: true
 ---
 
-[Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
+Gbetondji Dovonon is a MSc student at the [African Masters of Machine Intelligence](https://aimsammi.org/), an intensive masters sponsored by Google and Facebook. I obtained my BSc in Computer Science from [Ashesi University](https://www.ashesi.edu.gh/) in 2020.
+My interests are in:
+- deep learning with structured data
+- meta learning, meta reinforcement learning and neural architecture search
+- neural algorithmic reasoning 
 
-If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
-
-The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the `_config.yml` file to link your accounts.
+Currrently I am working at the intersection of graph neural networks (GNNs) and computational graphs. More specifically, I am interested in how we can use GNNs to improve the performance of neural network architectures, either using performance prediction or graph hypernetworks.
