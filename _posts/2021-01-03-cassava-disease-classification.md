@@ -41,8 +41,10 @@ The final best model was a SE ResNext 101 trained for 5 epochs on 90% ofthe data
 
 The dataset had multiple properties that made classification difficult, like class imbalance, small number of data samples, low inter-class variance. Our final model used a pretrained SE ResNext 101 trained for 5 epochs. Possible improvements include using better augmentation strategies. Center cropping was used during training instead of random cropping,  which was only noticed on the last day. Also using larger images could help.
 
+
 ...
 
-References
-[^1]: [https://arxiv.org/abs/1908.02900](Ernest Mwebaze, Timnit Gebru, Andrea Frome, Solomon Nsumba, Jeremy Tusubira, iCassava 2019 Fine-Grained Visual Categorization Challenge (2019), arXiv:1908.02900)
-[^2]: [https://arxiv.org/abs/1703.04782](Atilim Gunes Baydin, Robert Cornish, David Martinez Rubio, Mark Schmidt, Frank Wood, Online Learning Rate Adaptation with Hypergradient Descent (2017), arXiv:1703.04782)
+
+[^1]: Ernest Mwebaze, Timnit Gebru, Andrea Frome, Solomon Nsumba, Jeremy Tusubira, [iCassava 2019 Fine-Grained Visual Categorization Challenge (2019)](https://arxiv.org/abs/1908.02900), arXiv:1908.02900
+
+[^2]: (Atilim Gunes Baydin, Robert Cornish, David Martinez Rubio, Mark Schmidt, Frank Wood, [Online Learning Rate Adaptation with Hypergradient Descent (2017)](https://arxiv.org/abs/1703.04782), arXiv:1703.04782)
