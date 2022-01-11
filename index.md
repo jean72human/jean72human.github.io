@@ -20,5 +20,4 @@ Currently I am working at the intersection of graph neural networks (GNNs) and c
 
 # News
 
-- [January 10, 2022] I am starting a research internship at the [Vector Institute]() under the supervision of [Rahul G. Krishnan]()
-- [] I am starting a masters degree at the Afric
+- [January 10, 2022] I am starting a research internship at the [Vector Institute](https://vectorinstitute.ai/) under the supervision of [Rahul G. Krishnan](http://www.cs.toronto.edu/~rahulgk/index.html)
