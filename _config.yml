@@ -18,9 +18,9 @@ paginate_path: /blog/page:num/
 
 # Social media links in footer
 #facebook: "#"
-twitter: "https://twitter.com/jean72human"
-linkedin: "https://www.linkedin.com/in/gbetondji-dovonon/"
-github: "https://github.com/jean72human"
+twitter: "jean72human"
+linkedin: "gbetondji-dovonon"
+github: "jean72human"
 #researchgate: "#"
 #orcid: "#"
 
