@@ -14,4 +14,11 @@ My interests are in:
 - meta learning, meta reinforcement learning and neural architecture search
 - reasoning and machine learning
 
+# Current work
+
 Currently I am working at the intersection of graph neural networks (GNNs) and computational graphs. More specifically, I am interested in how we can use GNNs to improve the performance of neural network architectures, either using performance prediction or graph hypernetworks.
+
+# News
+
+- [January 10, 2022] I am starting a research internship at the [Vector Institute]() under the supervision of [Rahul G. Krishnan]()
+- [] I am starting a masters degree at the Afric
