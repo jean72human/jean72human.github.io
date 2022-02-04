@@ -16,7 +16,7 @@ My interests are in:
 
 ## Current work
 
-Currently I am working at the intersection of graph neural networks (GNNs) and computational graphs. More specifically, I am interested in how we can use GNNs to improve the performance of neural network architectures, either using performance prediction or graph hypernetworks.
+Currently my research is at the intersection of graph neural networks (GNNs) and computational graphs. More specifically, I am interested in how we can use GNNs to improve the performance of neural network architectures, either using performance prediction or graph hypernetworks.
 
 ## News
 
