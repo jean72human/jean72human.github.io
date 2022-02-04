@@ -13,8 +13,8 @@ markdown: kramdown
 
 # Pagination
 paginate: 4
-permalink: /work/:year/:title/
-paginate_path: /work/page:num/
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
 
 # Social media links in footer
 #facebook: "#"
