@@ -18,13 +18,13 @@ Below is a list of some observations we made on the data.
 ## Dealing with the properties of the data
 
 Here is a list of the ideas used to deal with the various properties of the data.
-- To deal with the noisiness and the small dataset size of the data we useddata augmentation. We kept it to a minimum since agressive augmentation can slow down the convergence rate.
+- To deal with the noisiness and the small dataset size of the data we used data augmentation. We kept it to a minimum since agressive augmentation can slow down the convergence rate.
 - To deal with the imbalance we tried to use balanced sampling, however itbecame unclear how how to read the performance metrics so we droppedit.
 - To deal with the low inter-class variance we used large image sizes in orderfor the model to be able to identify smaller patterns and details. Image sizes ranged from 400 to 600.
 
 ## First experiment
 
-Our first try used the starter notebook provided to us. We used a pretrained SEResNext 50 trained on 80% of the data. The augmentation used were verticaland horizontal flip. The model was trained for 12 epochs. The optimizer usedwas an Adam optimizer with hypergradient [^2]. The learning rate was set to 1e-4 and the hypergrad learning rate was set to 1e-9. The optimizer was not changed. We used hypergradient descent in order to avoid tuning the learning rate. We replaced the average pooling layer by an adaptive pooling of 1 by 1. That was enough to reach 90.5% accuracy on the public leaderboard.
+Our first try used the starter notebook provided to us. We used a pretrained SEResNext 50 trained on 80% of the data. The augmentation used were vertical and horizontal flips. The model was trained for 12 epochs. The optimizer used was an Adam optimizer with hypergradient descent [^2]. The learning rate was set to 1e-4 and the hypergrad learning rate was set to 1e-9. The optimizer was not changed. We used hypergradient descent in order to avoid tuning the learning rate. We replaced the average pooling layer by an adaptive pooling of 1 by 1. That was enough to reach 90.5% accuracy on the public leaderboard.
 
 ## Improvements
 
@@ -47,4 +47,4 @@ The dataset had multiple properties that made classification difficult, like cla
 
 [^1]: Ernest Mwebaze, Timnit Gebru, Andrea Frome, Solomon Nsumba, Jeremy Tusubira, [iCassava 2019 Fine-Grained Visual Categorization Challenge (2019)](https://arxiv.org/abs/1908.02900), arXiv:1908.02900
 
-[^2]: (Atilim Gunes Baydin, Robert Cornish, David Martinez Rubio, Mark Schmidt, Frank Wood, [Online Learning Rate Adaptation with Hypergradient Descent (2017)](https://arxiv.org/abs/1703.04782), arXiv:1703.04782)
+[^2]: Atilim Gunes Baydin, Robert Cornish, David Martinez Rubio, Mark Schmidt, Frank Wood, [Online Learning Rate Adaptation with Hypergradient Descent (2017)](https://arxiv.org/abs/1703.04782), arXiv:1703.04782
