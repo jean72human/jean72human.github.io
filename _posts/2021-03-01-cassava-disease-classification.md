@@ -24,7 +24,7 @@ Here is a list of the ideas used to deal with the various properties of the data
 
 ## First experiment
 
-Our first try used the starter notebook provided to us. We used a pretrained SEResNext 50 trained on 80% of the data. The augmentation used were vertical and horizontal flips. The model was trained for 12 epochs. The optimizer used was an Adam optimizer with hypergradient descent [^2]. The learning rate was set to 1e-4 and the hypergrad learning rate was set to 1e-9. The optimizer was not changed. We used hypergradient descent in order to avoid tuning the learning rate. We replaced the average pooling layer by an adaptive pooling of 1 by 1. That was enough to reach 90.5% accuracy on the public leaderboard.
+Our first try used the starter notebook provided to us. We used a pretrained SEResNext 50 trained on 80% of the data. The augmentations used were vertical and horizontal flips. The model was trained for 12 epochs. The optimizer used was an Adam optimizer with hypergradient descent [^2]. The learning rate was set to 1e-4 and the hypergrad learning rate was set to 1e-9. The optimizer was not changed. We used hypergradient descent in order to avoid tuning the learning rate. We replaced the average pooling layer by an adaptive pooling of 1 by 1. That was enough to reach 90.5% accuracy on the public leaderboard.
 
 ## Improvements
 
