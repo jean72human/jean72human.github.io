@@ -14,4 +14,4 @@ My interests is in modeling techniques that use the implicit structures present 
 ## News
 
 - [January 10, 2022] I am starting a research internship at the [Vector Institute](https://vectorinstitute.ai/) under the supervision of [Rahul G. Krishnan](http://www.cs.toronto.edu/~rahulgk/index.html)
-- [September 20, 2022] I am starting a PhD at the [UCL FAI CDT](https://www.ucl.ac.uk/foundational-ai-cdt/foundational-artificial-intelligence-mphilphd) and [ELLIS](https://ellis.eu/), supervised by [Matt Kusner](https://mkusner.github.io/) and [Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/).
+- [September 20, 2022] I am starting a PhD at the [UCL FAI CDT](https://www.ucl.ac.uk/foundational-ai-cdt/foundational-artificial-intelligence-mphilphd) and [ELLIS](https://ellis.eu/)
