@@ -16,11 +16,9 @@ I am broadly interested in modeling techniques that use the (sometimes implicit)
 
 ## Preprints
 
-- **Setting the Record Straight on Transformer Oversmoothing**
-  
-  Gbètondji J-S Dovonon, Michael Bronstein, Matt J. Kusner
-  
-  [paper](https://arxiv.org/pdf/2401.04301.pdf)
+- **Setting the Record Straight on Transformer Oversmoothing**  
+  * Gbètondji J-S Dovonon, Michael Bronstein, Matt J. Kusner
+  * [paper](https://arxiv.org/pdf/2401.04301.pdf)
 
 
 - **Spawrious: A Benchmark for Fine Control of Spurious Correlation Biases**
