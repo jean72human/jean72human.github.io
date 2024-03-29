@@ -22,7 +22,7 @@ I am broadly interested in modeling techniques that use the (sometimes implicit)
 
 - **Spawrious: A Benchmark for Fine Control of Spurious Correlation Biases**
   * Aengus Lynch\*, Gbètondji J-S Dovonon\*, Jean Kaddour\*, Ricardo Silva
-  * [paper](https://arxiv.org/pdf/2303.05470.pdf) | [code](https://github.com/aengusl/spawrious)
+  * [paper](https://arxiv.org/pdf/2303.05470.pdf) \| [code](https://github.com/aengusl/spawrious)
 
 
 ## Papers
