@@ -25,7 +25,7 @@ I am broadly interested in modeling techniques that use the (sometimes implicit)
 
 - **Spawrious: A Benchmark for Fine Control of Spurious Correlation Biases**
   
-  Aengus Lynch*, Gbètondji J-S Dovonon*, Jean Kaddour*, Ricardo Silva
+  Aengus Lynch\*, Gbètondji J-S Dovonon\*, Jean Kaddour\*, Ricardo Silva
   
   [paper](https://arxiv.org/pdf/2303.05470.pdf) | [code](https://github.com/aengusl/spawrious)
 
@@ -44,7 +44,7 @@ I am broadly interested in modeling techniques that use the (sometimes implicit)
 
 - **Towards a better understanding of the computer vision research community in africa**
   
-  Abdul Hakeem Omotayo*, Mai Gamal*, Eman Ehab*, Gbètondji J-S Dovonon*, Zainab Akinjobi*, Ismaila Lukman*, Houcemeddine Turki*, Mahmoud Abdien*, Idriss Tondji*, Abigail Oppong*, Yvan Pimi*, Karim Gamal*, Mennatullah Siam
+  Abdul Hakeem Omotayo\*, Mai Gamal\*, Eman Ehab\*, Gbètondji J-S Dovonon\*, Zainab Akinjobi\*, Ismaila Lukman\*, Houcemeddine Turki\*, Mahmoud Abdien\*, Idriss Tondji\*, Abigail Oppong\*, Yvan Pimi\*, Karim Gamal\*, Mennatullah Siam
   
   *EAAMO: Equity and Access in Algorithms, Mechanisms*, 2023
   
