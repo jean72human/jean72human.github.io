@@ -8,8 +8,8 @@ The dataset is made of cassava leaves images separated into 5 classes. Four of t
 Below is a list of some observations we made on the data.
 - The data is noisy. There were probably a few labeling mistakes.
 - The dataset was not large. There was a total of 5656 labeled images.
-- The dataset was highly imbalanced. The largest class had 2658 imagesand the smallest one had 316 images. 
-- The data had low inter-class variance. The differences from one class toanother were small and hard to notice.
+- The dataset was highly imbalanced. The largest class had 2658 images and the smallest one had 316 images. 
+- The data had low inter-class variance. The differences from one class to another were small and hard to notice.
 # Experiments
 ## Dealing with the properties of the data
 Here is a list of the ideas used to deal with the various properties of the data.
