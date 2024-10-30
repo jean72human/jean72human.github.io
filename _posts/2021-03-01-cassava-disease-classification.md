@@ -3,7 +3,7 @@ layout: post
 title: "Cassava disease classification"
 ---
 
-Cassava is an important provider of carbohydrates in Africa and is therefore keyto the nutrition of a large part of the population of the continent.  The plant can be affected by several diseases that result in lower yields.  Identifying them canbe beneficial to food security. To help solve this problem, machine learning has been employed to identify diseases in pictures of cassava leaves. The data collected to make this possible was made available in the iCassava-2019 competition [^1]. During our computer vision class at AMMI we were required to work on this datset as part of an In-Class Kaggle competition which my team (Simon Bassey and I) won. In this blogpost I will describe our thought process and the simple methods we used.
+Cassava is an important provider of carbohydrates in Africa and is therefore keyto the nutrition of a large part of the population of the continent. The plant can be affected by several diseases that result in lower yields.  Identifying them can be beneficial to food security. To help solve this problem, machine learning has been employed to identify diseases in pictures of cassava leaves. The data collected to make this possible was made available in the iCassava-2019 competition [^1]. During our computer vision class at AMMI we were required to work on this datset as part of an In-Class Kaggle competition which my team (Simon Bassey and I) won. In this blogpost I will describe our thought process and the simple methods we used.
 
 # Data 
 
@@ -20,7 +20,7 @@ Below is a list of some observations we made on the data.
 
 Here is a list of the ideas used to deal with the various properties of the data.
 - To deal with the noisiness and the small dataset size of the data we used data augmentation. We kept it to a minimum since agressive augmentation can slow down the convergence rate.
-- To deal with the imbalance we tried to use balanced sampling, however itbecame unclear how how to read the performance metrics so we droppedit.
+- To deal with the imbalance we tried to use balanced sampling, however it became unclear how how to read the performance metrics so we dropped it.
 - To deal with the low inter-class variance we used large image sizes in orderfor the model to be able to identify smaller patterns and details. Image sizes ranged from 400 to 600.
 - 
 ## First experiment
