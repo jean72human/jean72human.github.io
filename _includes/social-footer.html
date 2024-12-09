@@ -8,6 +8,18 @@ href="mailto:{{ site.email | encode_email }}" target="_blank">
 </a>
 {%- endif -%}
 
+{%- if site.scholar -%}
+<a title="{{ _locale_string_follow | replace: '[NAME]', 'Google Scholar' }}"
+   class="social-button scholar"
+   href="https://scholar.google.com/citations?user={{ site.scholar }}&hl=en&oi=ao"
+   itemprop="sameAs"
+   target="_blank">
+   <!-- Use an appropriate icon. Font Awesome doesn't have a direct Scholar icon.
+        As an alternative, you can use fa-graduation-cap or fa-user-graduate. -->
+   <i class="fas fa-graduation-cap"></i>
+</a>
+{%- endif -%}
+
 {%- if site.linkedin -%}
 <a title="{{ _locale_string_follow | replace: '[NAME]', 'LinkedIn' }}"
 class="social-button linkedin"
