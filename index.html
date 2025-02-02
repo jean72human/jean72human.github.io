@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gbetondji Dovonon – Home</title>
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="https://latex.vercel.app/style.css" />
+  <!-- Additional custom styles for the profile picture and layout -->
+  <style>
+    .container {
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 0 1em;
+    }
+    /* Style the profile picture: round and modest size */
+    .profile-pic {
+      border-style: solid;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      display: block;
+      margin: 1em auto;
+    }
+    /* Optional: Center the headings for a clean look */
+    #bio,
+    #papers {
+      text-align: left;
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body class="libertinus">
+  <!-- Consistent header with navigation -->
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </header>
+
+  <!-- Main content container -->
+  <div class="container" id="content">
+    <!-- Profile picture -->
+    <div id="profile">
+      <img src="profile.png" alt="Profile Picture" class="profile-pic" />
+    </div>
+    <!-- Bio section -->
+    <div id="bio">
+      <!-- Bio Markdown content will be loaded here -->
+    </div>
+    <!-- Papers section -->
+    <div id="papers">
+      <!-- Papers Markdown content will be loaded here -->
+    </div>
+  </div>
+
+  <!-- Include Showdown JS for Markdown conversion -->
+  <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+  <script>
+    const converter = new showdown.Converter();
+
+    // Load and display bio.md into the #bio div
+    fetch('bio.md')
+      .then(response => response.text())
+      .then(markdown => {
+        document.getElementById('bio').innerHTML = converter.makeHtml(markdown);
+      })
+      .catch(error => {
+        console.error('Error loading bio:', error);
+        document.getElementById('bio').innerHTML = '<p>Error loading bio information.</p>';
+      });
+
+    // Load and display papers.md into the #papers div (below the h2)
+    fetch('papers.md')
+      .then(response => response.text())
+      .then(markdown => {
+        document.getElementById('papers').innerHTML += converter.makeHtml(markdown);
+      })
+      .catch(error => {
+        console.error('Error loading papers:', error);
+        document.getElementById('papers').innerHTML += '<p>Error loading papers list.</p>';
+      });
+  </script>
+</body>
+</html>

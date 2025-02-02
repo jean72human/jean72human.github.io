@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gbetondji Dovonon – Blog</title>
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="https://latex.vercel.app/style.css" />
+</head>
+<body class="libertinus">
+  <!-- Consistent header with navigation -->
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </header>
+
+  <!-- Main content container -->
+  <div class="container" id="content"></div>
+
+  <!-- Include Showdown JS -->
+  <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+  <script>
+    // Utility function to get query parameters
+    function getQueryParam(name) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(name);
+    }
+
+    const converter = new showdown.Converter();
+    const contentDiv = document.getElementById('content');
+    const postName = getQueryParam('post');
+
+    if (postName) {
+      // A specific blog post is requested.
+      // Fetch the blog post Markdown file from the "blog" folder.
+      fetch('blog/' + postName + '.md')
+        .then(response => response.text())
+        .then(markdown => {
+          let html = '<p><a href="blog.html">&laquo; Back </a></p>';
+          html += converter.makeHtml(markdown);
+          contentDiv.innerHTML = html;
+        })
+        .catch(error => {
+          console.error('Error loading blog post:', error);
+          contentDiv.innerHTML = '<p>Error loading blog post.</p>';
+        });
+    } else {
+      // No specific post requested: load blog-index.md for the list of posts.
+      fetch('blog-index.md')
+        .then(response => response.text())
+        .then(markdown => {
+          contentDiv.innerHTML = converter.makeHtml(markdown);
+        })
+        .catch(error => {
+          console.error('Error loading blog index:', error);
+          contentDiv.innerHTML = '<p>Error loading blog index.</p>';
+        });
+    }
+  </script>
+</body>
+</html>
