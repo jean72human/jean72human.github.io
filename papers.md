@@ -4,11 +4,13 @@
 **Gbètondji J-S Dovonon**, Michael Bronstein, Matt J. Kusner  
 **Link**: [Paper](https://arxiv.org/pdf/2401.04301.pdf)
 
-#### Spawrious: A Benchmark for Fine Control of Spurious Correlation Biases  
-Aengus Lynch\*, **Gbètondji J-S Dovonon**\*, Jean Kaddour\*, Ricardo Silva  
-**Links**: [Paper](https://arxiv.org/pdf/2303.05470.pdf) \| [Code](https://github.com/aengusl/spawrious)
 
 ## Papers
+
+#### Spawrious: A Benchmark for Fine Control of Spurious Correlation Biases  
+Aengus Lynch\*, **Gbètondji J-S Dovonon**\*, Jean Kaddour\*, Ricardo Silva  
+*ICLR 2025 Workshop on Spurious Correlation and Shortcut Learning: Foundations and Solutions*, 2025
+**Links**: [Paper](https://arxiv.org/pdf/2303.05470.pdf) \| [Code](https://github.com/aengusl/spawrious)
 
 #### Long-run Behaviour of Multi-fidelity Bayesian Optimisation  
 **Gbètondji J-S Dovonon**, Jakob Zeitler  
