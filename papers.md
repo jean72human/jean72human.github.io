@@ -8,18 +8,18 @@
 ## Papers
 
 #### Spawrious: A Benchmark for Fine Control of Spurious Correlation Biases  
-Aengus Lynch\*, **Gbètondji J-S Dovonon**\*, Jean Kaddour\*, Ricardo Silva  
-*ICLR 2025 Workshop on Spurious Correlation and Shortcut Learning: Foundations and Solutions*, 2025
+Aengus Lynch\*, **Gbètondji J-S Dovonon**\*, Jean Kaddour\*, Ricardo Silva  \
+*ICLR 2025 Workshop on Spurious Correlation and Shortcut Learning: Foundations and Solutions*, 2025 \
 **Links**: [Paper](https://arxiv.org/pdf/2303.05470.pdf) \| [Code](https://github.com/aengusl/spawrious)
 
 #### Attention Is All You Need But You Don't Need All Of It For Inference of Large Language Models
-Georgy Tyukin, **Gbètondji J-S Dovonon**, Jean Kaddour, P Minervini
-*ICML 2024 Workshop on Theoretical Foundations of Foundation Models*, 2024
+Georgy Tyukin, **Gbètondji J-S Dovonon**, Jean Kaddour, Pasquale Minervini \
+*ICML 2024 Workshop on Theoretical Foundations of Foundation Models*, 2024 \
 **Link**: [Paper](https://arxiv.org/pdf/2407.15516)
 
 #### The State of Computer Vision Research in Africa
-Abdul-Hakeem Omotayo, Ashery Mbilinyi, Lukman Ismaila, Houcemeddine Turki, Mahmoud Abdien, Karim Gamal, Idriss Tondji, Yvan Pimi, Naome A Etori, Marwa M Matar, Clifford Broni-Bediako, Abigail Oppong, Mai Gamal, Eman Ehab, **Gbetondji Dovonon**, Zainab Akinjobi, Daniel Ajisafe, Oluwabukola G Adegboro, Mennatullah Siam
-*Journal of Artificial Intelligence Research 61*, 43-69, 2024
+Abdul-Hakeem Omotayo, Ashery Mbilinyi, Lukman Ismaila, Houcemeddine Turki, Mahmoud Abdien, Karim Gamal, Idriss Tondji, Yvan Pimi, Naome A Etori, Marwa M Matar, Clifford Broni-Bediako, Abigail Oppong, Mai Gamal, Eman Ehab, **Gbetondji Dovonon**, Zainab Akinjobi, Daniel Ajisafe, Oluwabukola G Adegboro, Mennatullah Siam \
+*Journal of Artificial Intelligence Research 61*, 43-69, 2024 \
 **Link**: [Paper](https://www.jair.org/index.php/jair/article/view/16653/27081)
 
 #### Long-run Behaviour of Multi-fidelity Bayesian Optimisation  
