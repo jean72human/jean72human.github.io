@@ -1,5 +1,5 @@
 ## Gbetondji Jean-Sebastien Dovonon
-[Google Scholar](https://scholar.google.com/citations?user=_rFYqP0AAAAJ&hl=en) | [Linkedin](https://www.linkedin.com/in/gbetondji-dovonon/) | [Github](https://github.com/jean72human)
+[Google Scholar](https://scholar.google.com/citations?user=_rFYqP0AAAAJ&hl=en) | [Linkedin](https://www.linkedin.com/in/gbetondji-dovonon/) | [Github](https://github.com/jean72human) | [eMail](gdovonon@aimsammi.org)
 
 I am a third year PhD student at the [UCL FAI CDT](https://www.ucl.ac.uk/foundational-ai-cdt/foundational-artificial-intelligence-mphilphd) and [ELLIS](https://ellis.eu/), supervised by [Matt Kusner](https://mkusner.github.io/) and [Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/). I also do Bayesian Optimisation research at [Matterhorn Studio](https://matterhorn.studio/).
 
