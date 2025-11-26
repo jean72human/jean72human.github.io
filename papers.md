@@ -4,7 +4,7 @@
 
 #### Setting the Record Straight on Transformer Oversmoothing  
 **Gbètondji J-S Dovonon**, Michael Bronstein, Matt J. Kusner  
-*Transactions on Machine Learning Research*, 2025  (J2C certification)
+*Transactions on Machine Learning Research*, 2025  (J2C certification) 
 **Link**: [Paper]([https://arxiv.org/pdf/2401.04301.pdf](https://openreview.net/pdf?id=HHI6qWLFF1))  
 
 #### Spawrious: A Benchmark for Fine Control of Spurious Correlation Biases  
